@@ -29,6 +29,7 @@ var openPopup = function () {
 
 var closePopup = function () {
     setup.classList.add('hidden');
+    document.removeEventListener('keydown', onPopupEscPress);
 };
 
 var indexes = { eye: 0, coat: 0, fireball: 0 };

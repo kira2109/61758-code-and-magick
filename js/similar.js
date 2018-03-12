@@ -54,7 +54,7 @@ var renderWizard = function (wizard) {
     wizardElement.querySelector('.wizard-eyes').style.fill = wizard.eyes;
 
     return wizardElement;
-}
+};
 
 var fragment = document.createDocumentFragment();
 for (var i = 0; i < wizards.length; i++) {
